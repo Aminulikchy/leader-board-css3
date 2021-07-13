@@ -27,6 +27,25 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+/* navigation styles */
+nav ul{
+    display: flex;
+    background-color: #562eff;
+    border: #562eff solid 1px;
+    border-radius: 5px;
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+}
+nav li :hover{
+    background-color: darkorange;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
 /* top player style */
 .top-players{
     margin-bottom: 30px;
@@ -130,7 +149,7 @@ hr{
     
 }
 /* tablet devaice */
-@media only screen and (min-width::688px) and (max-width:992px) {
+@media only screen and (min-width:688px) and (max-width:992px) {
      .container{
          width: 100%;
      } 
